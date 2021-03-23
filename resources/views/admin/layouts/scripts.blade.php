@@ -243,7 +243,7 @@ $(document).ready(function() {
 
           });
 
-
+        $('.gl_item').find('ng-scope').addClass('j767tyut');
     })
 </script>
 

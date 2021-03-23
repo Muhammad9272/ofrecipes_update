@@ -179,6 +179,8 @@
                 <h3 class="uppercase">Settings</h3>
             </li>
 
+            
+
 
             <li class="nav-item start {{  Request::segment(2) === 'about' || Request::segment(2) === 'pgother'  ? 'active' : null }}">
                 <a href="javascript:;" class="nav-link nav-toggle">
@@ -206,6 +208,15 @@
                         </a>
                     </li>
                 </ul>
+            </li>
+            <li class="nav-item start" onclick="filemanager.selectFile('profile-photo')">
+               <a >
+                    <i class="fa fa-camera"></i>
+                    <span class="title">Add Media</span> 
+                                  
+                </a>
+
+
             </li>
             <li class="nav-item start {{ (request()->is('admin/generalsettings*')) ? 'active' : '' }}">
 
